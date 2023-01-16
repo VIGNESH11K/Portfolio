@@ -284,7 +284,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("assets/img/landing.jpg.gif") top right no-repeat;
+  background: url("/assets/img/landing.jpg.gif") top right no-repeat;
   background-size: relative;
   position: relative;
 }
@@ -310,7 +310,7 @@ h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #2dd08f;
+  color: #ffffff;
 }
 
 #hero p {
