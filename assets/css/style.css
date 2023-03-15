@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: #1b1b1c;
 }
 
 a {
@@ -51,13 +51,13 @@ h6 {
 
 .back-to-top i {
   font-size: 28px;
-  color: #fff;
+  color: #070606;
   line-height: 0;
 }
 
 .back-to-top:hover {
   background: #0678e3;
-  color: #fff;
+  color: #131010;
 }
 
 .back-to-top.active {
@@ -284,7 +284,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
   background-size: relative;
   position: relative;
 }
@@ -292,6 +292,7 @@ h6 {
 @media (min-width: 992px) {
   #hero {
     padding-left: 160px;
+   
   }
 }
 
@@ -311,6 +312,7 @@ h6 {
   font-weight: 700;
   line-height: 56px;
   color: #ffffff;
+  padding-bottom: 50px;
 }
 
 #hero p {
@@ -365,6 +367,7 @@ h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
+  background-color: #000000;
 }
 
 .section-title {
@@ -380,6 +383,7 @@ section {
   padding-bottom: 20px;
   position: relative;
   color: #45505b;
+  color: white;
 }
 
 .section-title h2::before {
@@ -388,9 +392,10 @@ section {
   display: block;
   width: 120px;
   height: 1px;
-  background: #ddd;
+  background: #151010;
   bottom: 1px;
   left: calc(50% - 60px);
+  color: white;
 }
 
 .section-title h2::after {
@@ -402,10 +407,13 @@ section {
   background: #0563bb;
   bottom: 0;
   left: calc(50% - 20px);
+  color: white;
+
 }
 
 .section-title p {
   margin-bottom: 0;
+  color: white;
 }
 
 /*--------------------------------------------------------------
@@ -414,12 +422,13 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #728394;
+  color: #ffffff;
 }
 
 .about .content ul {
   list-style: none;
   padding: 0;
+  color: white;
 }
 
 .about .content ul li {
@@ -430,6 +439,7 @@ section {
 
 .about .content ul strong {
   margin-right: 10px;
+  color: white;
 }
 
 .about .content ul i {
@@ -437,10 +447,12 @@ section {
   margin-right: 5px;
   color: #0563bb;
   line-height: 0;
+  
 }
 
 .about .content p:last-child {
   margin-bottom: 0;
+  
 }
 
 /*--------------------------------------------------------------
@@ -452,7 +464,7 @@ section {
   width: 100%;
   position: relative;
   text-align: center;
-  background: #fff;
+  background: #000000;
 }
 
 .facts .count-box i {
@@ -529,7 +541,7 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #45505b;
+  color: #cdcdcd;
 }
 
 .resume .resume-item {
@@ -537,6 +549,7 @@ section {
   margin-top: -2px;
   border-left: 2px solid #0563bb;
   position: relative;
+  color: white;
 }
 
 .resume .resume-item h4 {
@@ -551,11 +564,12 @@ section {
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #f7f8f9;
+  background: #525355;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+  border-radius: 50px;
 }
 
 .resume .resume-item ul {
@@ -578,7 +592,7 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #fff;
+  background: #030202;
   border: 2px solid #0563bb;
 }
 
@@ -607,7 +621,7 @@ section {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #272829;
+  color: #ffffff;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
@@ -1193,6 +1207,7 @@ section {
   font-style: italic;
   padding: 0;
   margin: 0 0 40px 0;
+
 }
 
 #footer .social-links {
@@ -1226,4 +1241,13 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+/* para  */
+
+
+.para{
+color: white;
+/* font-family: italic */
+;
 }
