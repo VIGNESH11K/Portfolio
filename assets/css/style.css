@@ -1268,5 +1268,31 @@ section {
 .para{
 color: white;
 /* font-family: italic */
-;
+
+}
+
+
+
+/* preloader */
+
+#preloader {
+  position: fixed;
+  inset: 0;
+  z-index: 999999;
+  overflow: hidden;
+  background: url(" ") center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 0.6s;
+}
+
+@media screen and (max-width:480px) {
+
+  #preloader {
+    background: url("/assets/img/Welcome.gif") center;
+    background-size: cover;
+  
+    transition: all 0.6s ease-out;
+    
+  }
 }
