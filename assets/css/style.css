@@ -11,6 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #1b1b1c;
+  
 }
 
 a {
@@ -199,7 +200,8 @@ h6 {
 .nav-menu a span,
 .nav-menu a:focus span {
   padding: 0 5px 0 7px;
-  color: #45505b;
+  /* color: #45505b; */
+  color: white;
 }
 
 @media (min-width: 992px) {
@@ -414,6 +416,7 @@ section {
 .section-title p {
   margin-bottom: 0;
   color: white;
+  font-style: italic;
 }
 
 /*--------------------------------------------------------------
@@ -452,6 +455,7 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+  font-style: italic;
   
 }
 
@@ -601,7 +605,9 @@ section {
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+  border-radius: 25px;
 }
+
 
 .portfolio #portfolio-flters {
   padding: 0;
@@ -640,7 +646,9 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(69, 80, 91, 0.8);
+  background: rgba(84, 83, 83, 0.432);
+  border-radius: 25px;
+
 }
 
 .portfolio .portfolio-wrap::before {
@@ -654,6 +662,7 @@ section {
   transition: all ease-in-out 0.3s;
   z-index: 2;
   opacity: 0;
+  border-radius: 25px;
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
@@ -670,6 +679,7 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 25px;
 }
 
 .portfolio .portfolio-wrap .portfolio-info::before {
@@ -825,8 +835,9 @@ section {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #fff;
+  background: #b0acac28;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+  border-radius: 25px;
 }
 
 .services .icon-box .icon {
@@ -838,6 +849,7 @@ section {
   justify-content: center;
   transition: ease-in-out 0.3s;
   position: relative;
+  /* color: white; */
 }
 
 .services .icon-box .icon i {
@@ -864,7 +876,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #45505b;
+  color: #959fa9;
   transition: ease-in-out 0.3s;
 }
 
@@ -872,6 +884,8 @@ section {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+  color:white;
+  font-style: italic;
 }
 
 .services .icon-box:hover {
@@ -1039,7 +1053,8 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
+  background:  #b0acac28;
+  border-radius: 25px;
 }
 
 .contact .info i {
@@ -1061,7 +1076,7 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #45505b;
+  color: #ffffff;
 }
 
 .contact .info p {
@@ -1080,12 +1095,14 @@ section {
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
   background: #0563bb;
-  color: #fff;
+  color: #b0acac28;
+  border-radius: 25px;
 }
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
+  background:  #b0acac28;
+  border-radius: 25px;
 }
 
 .contact .php-email-form .form-group {
@@ -1094,7 +1111,7 @@ section {
 
 .contact .php-email-form .error-message {
   display: none;
-  color: #fff;
+  color: #b0acac28;
   background: #ed3c0d;
   text-align: left;
   padding: 15px;
@@ -1107,7 +1124,7 @@ section {
 
 .contact .php-email-form .sent-message {
   display: none;
-  color: #fff;
+  color: #b0acac28;
   background: #18d26e;
   text-align: center;
   padding: 15px;
@@ -1186,7 +1203,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f8f9;
+  background: #020203;
   color: #45505b;
   font-size: 14px;
   text-align: center;
@@ -1200,6 +1217,7 @@ section {
   font-family: "Poppins", sans-serif;
   padding: 0;
   margin: 0 0 15px 0;
+  color: white;
 }
 
 #footer p {
@@ -1207,6 +1225,7 @@ section {
   font-style: italic;
   padding: 0;
   margin: 0 0 40px 0;
+  color:white;
 
 }
 
